@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  TilesAppTest
 //
-//  Created by LJ on 27/12/2023.
 //
 
 import UIKit

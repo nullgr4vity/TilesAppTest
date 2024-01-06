@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		C69E0E962B3CD77600E49890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E0E952B3CD77600E49890 /* AppDelegate.swift */; };
 		C69E0E982B3CD77600E49890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E0E972B3CD77600E49890 /* SceneDelegate.swift */; };
-		C69E0E9A2B3CD77600E49890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E0E992B3CD77600E49890 /* ViewController.swift */; };
 		C69E0E9D2B3CD77600E49890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69E0E9B2B3CD77600E49890 /* Main.storyboard */; };
 		C69E0E9F2B3CD77800E49890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69E0E9E2B3CD77800E49890 /* Assets.xcassets */; };
 		C69E0EA22B3CD77800E49890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69E0EA02B3CD77800E49890 /* LaunchScreen.storyboard */; };
+		C69E0EBE2B42122300E49890 /* ZoomableImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E0EBD2B42122300E49890 /* ZoomableImageViewController.swift */; };
+		C69E0EC32B45FBDC00E49890 /* ImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E0EC22B45FBDC00E49890 /* ImageContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C69E0E922B3CD77600E49890 /* TilesAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilesAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69E0E952B3CD77600E49890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69E0E972B3CD77600E49890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C69E0E992B3CD77600E49890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C69E0E9C2B3CD77600E49890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C69E0E9E2B3CD77800E49890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69E0EA12B3CD77800E49890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69E0EA32B3CD77800E49890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69E0EBD2B42122300E49890 /* ZoomableImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageViewController.swift; sourceTree = "<group>"; };
+		C69E0EC12B42160800E49890 /* TilesAppTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TilesAppTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		C69E0EC22B45FBDC00E49890 /* ImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +59,25 @@
 		C69E0E942B3CD77600E49890 /* TilesAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				C69E0EA92B3CD78B00E49890 /* Images */,
 				C69E0E952B3CD77600E49890 /* AppDelegate.swift */,
 				C69E0E972B3CD77600E49890 /* SceneDelegate.swift */,
-				C69E0E992B3CD77600E49890 /* ViewController.swift */,
 				C69E0E9B2B3CD77600E49890 /* Main.storyboard */,
 				C69E0E9E2B3CD77800E49890 /* Assets.xcassets */,
 				C69E0EA02B3CD77800E49890 /* LaunchScreen.storyboard */,
 				C69E0EA32B3CD77800E49890 /* Info.plist */,
+				C69E0EBD2B42122300E49890 /* ZoomableImageViewController.swift */,
+				C69E0EC22B45FBDC00E49890 /* ImageContentView.swift */,
+				C69E0EC12B42160800E49890 /* TilesAppTest-Bridging-Header.h */,
 			);
 			path = TilesAppTest;
+			sourceTree = "<group>";
+		};
+		C69E0EA92B3CD78B00E49890 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +112,7 @@
 				TargetAttributes = {
 					C69E0E912B3CD77600E49890 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -138,9 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69E0E9A2B3CD77600E49890 /* ViewController.swift in Sources */,
 				C69E0E962B3CD77600E49890 /* AppDelegate.swift in Sources */,
+				C69E0EBE2B42122300E49890 /* ZoomableImageViewController.swift in Sources */,
 				C69E0E982B3CD77600E49890 /* SceneDelegate.swift in Sources */,
+				C69E0EC32B45FBDC00E49890 /* ImageContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLD3F7W8AK;
@@ -308,6 +324,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.nullgravity.TilesAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TilesAppTest/TilesAppTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLD3F7W8AK;
@@ -336,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.nullgravity.TilesAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TilesAppTest/TilesAppTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

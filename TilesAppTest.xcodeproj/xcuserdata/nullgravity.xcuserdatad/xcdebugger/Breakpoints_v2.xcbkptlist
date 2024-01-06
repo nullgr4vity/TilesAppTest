@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "86E03DE9-D7CA-43DF-93E8-BBE9BD333DF0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD17546D-C2D7-4360-8E33-C874988C452C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD17546D-C2D7-4360-8E33-C874988C452C - a95beda434062ac6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TilesAppTest.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TilesAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nullgravity/workspace/test_app/TilesAppTest/TilesAppTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "BD17546D-C2D7-4360-8E33-C874988C452C - a95beda434062ac6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TilesAppTest.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TilesAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nullgravity/workspace/test_app/TilesAppTest/TilesAppTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "521">
+               </Location>
+               <Location
+                  uuid = "BD17546D-C2D7-4360-8E33-C874988C452C - a95beda434062bbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TilesAppTest.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TilesAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nullgravity/workspace/test_app/TilesAppTest/TilesAppTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1294">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "405EDF32-E701-47FC-AD04-5AB52C9B167C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "needsTilingImage(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FC8A539-C6FF-4AD1-BE3D-3B3D9C200804"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "makeTiledImage(for:placeholderCompletion:tilingCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "548F24AE-199A-4120-9F63-4CADF1E90B27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "makeTiledImage(for:placeholderCompletion:tilingCompletion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "548F24AE-199A-4120-9F63-4CADF1E90B27 - 57926569a4930f3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CGImageRef&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TilesAppTest.TileManager.makeTiledImage(for: Foundation.URL, placeholderCompletion: (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; (), tilingCompletion: (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;__C.CGSize&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TilesAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nullgravity/workspace/test_app/TilesAppTest/TilesAppTest/TileManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "340"
+                  endingLineNumber = "340"
+                  offsetFromSymbolStart = "411">
+               </Location>
+               <Location
+                  uuid = "548F24AE-199A-4120-9F63-4CADF1E90B27 - 76f8c8cf6ba9c00b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;__C.CGSize&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #2 (Swift.Optional&lt;__C.CGImageRef&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TilesAppTest.TileManager.makeTiledImage(for: Foundation.URL, placeholderCompletion: (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; (), tilingCompletion: (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;__C.CGSize&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TilesAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nullgravity/workspace/test_app/TilesAppTest/TilesAppTest/TileManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "342"
+                  endingLineNumber = "342"
+                  offsetFromSymbolStart = "334">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C62C1CC-C588-4009-AB23-73152631317D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "391"
+            endingLineNumber = "391"
+            landmarkName = "downSize(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95515642-180B-441D-9639-F9BB97270234"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "497"
+            endingLineNumber = "497"
+            landmarkName = "downSize(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF0F312B-B109-4DF9-B6FF-BCE5B4A4E555"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "519"
+            endingLineNumber = "519"
+            landmarkName = "downSize(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B3D2DDC-0A7B-4C74-8ADA-DB66986060FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "545"
+            endingLineNumber = "545"
+            landmarkName = "makeTiles(for:to:usingPrefix:tilingCompletion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7B3D2DDC-0A7B-4C74-8ADA-DB66986060FB - 65248c1b9b8076f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TilesAppTest.TileManager.makeTiles(for: __C.CGImageRef, to: Foundation.URL, usingPrefix: Swift.String, tilingCompletion: (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;__C.CGSize&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TilesAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nullgravity/workspace/test_app/TilesAppTest/TilesAppTest/TileManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "544"
+                  endingLineNumber = "544"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "7B3D2DDC-0A7B-4C74-8ADA-DB66986060FB - 1e0fa098c00b9cd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () -&gt; () in TilesAppTest.TileManager.makeTiles(for: __C.CGImageRef, to: Foundation.URL, usingPrefix: Swift.String, tilingCompletion: (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;__C.CGSize&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TilesAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nullgravity/workspace/test_app/TilesAppTest/TilesAppTest/TileManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "546"
+                  endingLineNumber = "546"
+                  offsetFromSymbolStart = "335">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1345E4A2-A30C-4FA1-BCCD-46A5A403B611"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9E2F996-1A77-4C9A-B772-BD3D5CF8F429"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TilesAppTest/TilingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "draw(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
